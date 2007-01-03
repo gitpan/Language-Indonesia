@@ -1,9 +1,9 @@
-package Indonesia;
+package Language::Indonesia;
+
 use Filter::Simple;
 use strict;
 
-
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
 
 FILTER{
 
@@ -122,7 +122,7 @@ aren't good enough in english) to write Perl program in Bahasa Indonesia.
 
 The linguistic principles behind Language::Indonesia are described in:
 
-    http://www.anti-php.net/~daniels/index.pl?_work=indonesia
+    http://www.anti-php.net/~daniels/indonesia.html
 
 =begin html
 
@@ -145,7 +145,7 @@ etc.
 There's a lot of ambiguity in this module, for example:
 
 <pre>
-tidak strict;    # no strict;  ?
+tidak strict;    # no strict;
 </pre>
 
 Will confuse Indonesian programmers, I think. :-)
